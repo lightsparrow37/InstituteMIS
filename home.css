@@ -1,0 +1,94 @@
+/* Style the header */
+header {
+    background-color: #b5f192;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style:square;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  
+  section:last-child {
+    margin-right: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the testimonials */
+  blockquote {
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 5px solid #333;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #b5f192;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style:square;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
